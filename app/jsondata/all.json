@@ -1,0 +1,119 @@
+[
+  {
+    "id": 11,
+    "title": "Mercedes S-class",
+    "description": "description",
+    "imagePath": "https://i.ebayimg.com/00/s/NjAwWDgwMA==/z/JdsAAOSwbm9ZqIGt/$_20.jpg",
+    "buyItNowPrice": 9811.00,
+    "bids": 0,
+    "currentBidPrice": 0.0
+  },
+  {
+    "id": 14,
+    "title": "Ford Mustang Basis 2.3 EcoBoost",
+    "description": "description",
+    "imagePath": "https://i.ebayimg.com/00/s/MTE3NFgxNjAw/z/pokAAOSwg6pZa~k8/$_20.jpg",
+    "buyItNowPrice": 25141.00,
+    "bids": 0,
+    "currentBidPrice": 0.0
+  },
+  {
+    "id": 15,
+    "title": "Audi S5 Sportback 3.0TFSI ",
+    "description": "description",
+    "imagePath": "https://i.ebayimg.com/00/s/NjAwWDgwMA==/z/JdsAAOSwbm9ZqIGt/$_20.jpg",
+    "buyItNowPrice": 659834.00,
+    "bids": 0,
+    "currentBidPrice": 0.0
+  },
+  {
+    "id": 16,
+    "title": "BMW 535d",
+    "description": "description",
+    "imagePath": "https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/lFQAAOSwd~RZRMoM/$_20.jpg",
+    "buyItNowPrice": 981531.00,
+    "bids": 0,
+    "currentBidPrice": 0.0
+  },
+  {
+    "id": 18,
+    "title": "BMW 535d",
+    "description": "description",
+    "imagePath": "https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/lFQAAOSwd~RZRMoM/$_20.jpg",
+    "buyItNowPrice": 981531.00,
+    "bids": 0,
+    "currentBidPrice": 0.0
+  },
+  {
+    "id": 19,
+    "title": "Ford Mustang Basis 2.3 EcoBoost",
+    "description": "description",
+    "imagePath": "https://i.ebayimg.com/00/s/MTE3NFgxNjAw/z/pokAAOSwg6pZa~k8/$_20.jpg",
+    "buyItNowPrice": 25141.00,
+    "bids": 0,
+    "currentBidPrice": 0.0
+  },
+  {
+    "id": 20,
+    "title": "Audi S5 Sportback 3.0TFSI ",
+    "description": "description",
+    "imagePath": "https://i.ebayimg.com/00/s/NjAwWDgwMA==/z/JdsAAOSwbm9ZqIGt/$_20.jpg",
+    "buyItNowPrice": 659834.00,
+    "bids": 0,
+    "currentBidPrice": 0.0
+  },
+  {
+    "id": 21,
+    "title": "BMW 535d",
+    "description": "description",
+    "imagePath": "https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/lFQAAOSwd~RZRMoM/$_20.jpg",
+    "buyItNowPrice": 981531.00,
+    "bids": 0,
+    "currentBidPrice": 0.0
+  },
+  {
+    "id": 22,
+    "title": "Ford Mustang Basis 2.3 EcoBoost",
+    "description": "description",
+    "imagePath": "https://i.ebayimg.com/00/s/MTE3NFgxNjAw/z/pokAAOSwg6pZa~k8/$_20.jpg",
+    "buyItNowPrice": 25141.00,
+    "bids": 0,
+    "currentBidPrice": 0.0
+  },
+  {
+    "id": 23,
+    "title": "Audi S5 Sportback 3.0TFSI ",
+    "description": "description",
+    "imagePath": "https://i.ebayimg.com/00/s/NjAwWDgwMA==/z/JdsAAOSwbm9ZqIGt/$_20.jpg",
+    "buyItNowPrice": 659834.00,
+    "bids": 0,
+    "currentBidPrice": 0.0
+  },
+  {
+    "id": 24,
+    "title": "BMW 535d",
+    "description": "description",
+    "imagePath": "https://i.ebayimg.com/00/s/NDgwWDY0MA==/z/lFQAAOSwd~RZRMoM/$_20.jpg",
+    "buyItNowPrice": 981531.00,
+    "bids": 0,
+    "currentBidPrice": 0.0
+  },
+  {
+    "id": 25,
+    "title": "Ford Mustang Basis 2.3 EcoBoost",
+    "description": "description",
+    "imagePath": "https://i.ebayimg.com/00/s/MTE3NFgxNjAw/z/pokAAOSwg6pZa~k8/$_20.jpg",
+    "buyItNowPrice": 25141.00,
+    "bids": 0,
+    "currentBidPrice": 0.0
+  },
+  {
+    "id": 26,
+    "title": "Audi S5 Sportback 3.0TFSI ",
+    "description": "description",
+    "imagePath": "https://i.ebayimg.com/00/s/NjAwWDgwMA==/z/JdsAAOSwbm9ZqIGt/$_20.jpg",
+    "buyItNowPrice": 659834.00,
+    "bids": 0,
+    "currentBidPrice": 0.0
+  }
+]

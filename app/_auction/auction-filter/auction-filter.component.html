@@ -1,0 +1,106 @@
+<div class="w3-card-2 w3-animate-opacity" id="mySidebar" style="min-width: 210px">
+
+    <div class="w3-button w3-block w3-blue w3-bar-item w3-left-align" id="auction-filter-toggle-panel-btn">
+        <i class="glyphicon glyphicon-filter w3-right-align" style="margin:0"></i> Filter
+    </div>
+    <div class="collapse in" id="auction-filter-panel-body" style="padding: 5px;">
+        <div class="panel panel-default w3-bar-item" style="padding: 0; margin-bottom: 5px">
+            <div class="panel-heading" style="padding:0" id="header-sidebar-categories">
+                <div class="w3-button w3-block w3-grey w3-left-align toggle-mini-menu">
+                    Categories<i class="glyphicon glyphicon-menu-right w3-right-align"></i>
+                </div>
+            </div>
+
+            <div class="icon-panel panel-collapse panel-body collapse w3-card-4" style="padding-bottom: 20px;"
+                 id="panel-sidebar-categories">
+                <ul style="height: 0;">
+                    <li>
+                        <div class="container-fluid row" style="padding-bottom: 20px;">
+
+                            <div *ngFor="let category of categories" class="col-xs-4 category-icon" align="center">
+                                <div class="box">
+                                    <i class="icon-button {{category.iconCssClass}}"></i>
+                                    <p class="icon-title text-center">{{category.name}}</p>
+                                    <span class="hidden" id="{{category.id}}"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="panel panel-default w3-bar-item" style="padding: 0; margin-bottom: 5px">
+            <div class="panel-heading" style="padding:0" id="header-sidebar-makers">
+                <div class="w3-button w3-block w3-grey w3-left-align toggle-mini-menu w3-i">Makers
+                    <i class="glyphicon glyphicon-menu-right w3-right-align"></i></div>
+            </div>
+            <div class="icon-panel panel-collapse panel-body collapse w3-card-4" style="padding-bottom: 20px;"
+                 id="panel-sidebar-makers">
+                <ul>
+                    <li *ngFor="let maker of makers">
+                        <input class="w3-check" id="{{maker.name}}_{{maker.id}}" type="checkbox"
+                               data-id="{{maker.id}}">
+                        <label for="{{maker.name}}_{{maker.id}}">{{maker.name}}</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--<div class="w3-blue" style="margin-bottom: 15px;">-->
+<!--<div class="w3-container" id="button-open-filter-panel">-->
+<!--<h1 style="display: inline;">Filter</h1>-->
+
+<!--</div>-->
+<!--</div>-->
+<!--<div class="col-xs-4 category-icon" align="center">-->
+<!--<div class="box">-->
+<!--<i class="icon-button cabrio"></i>-->
+<!--<p class="icon-title text-center">Cabriolet</p>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--<div class="col-xs-4 category-icon" align="center">-->
+<!--<div class="box">-->
+<!--<i class="icon-button estateCar"></i>-->
+<!--<p class="icon-title text-center">Estate car</p>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--<div class="col-xs-4 category-icon" align="center">-->
+<!--<div class="box">-->
+<!--<i class="icon-button limousine"></i>-->
+<!--<p class="icon-title text-center">Sedan</p>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--<div class="col-xs-4 category-icon" align="center">-->
+<!--<div class="box">-->
+<!--<i class="icon-button offRoad"></i>-->
+<!--<p class="icon-title text-center">Offroad</p>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--<div class="col-xs-4 category-icon" align="center">-->
+<!--<div class="box">-->
+<!--<i class="icon-button smallCar"></i>-->
+<!--<p class="icon-title text-center">Small car</p>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--<div class="col-xs-4 category-icon" align="center">-->
+<!--<div class="box">-->
+<!--<i class="icon-button van"></i>-->
+<!--<p class="icon-title text-center">VAN</p>-->
+<!--</div>-->
+<!--</div>-->
+
+
+
+
+

@@ -1,0 +1,46 @@
+{
+  "name": "angular2-animation-tutorial-example",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cornflourblue/angular2-animation-tutorial-example.git"
+  },
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "yui": "\"node_modules\"yuicompressor\"build\"yuicompressor-2.4.8.jar "
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@angular/animations": "^4.0.0",
+    "@angular/cli": "^1.4.2",
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/forms": "^4.0.0",
+    "@angular/http": "^4.0.0",
+    "@angular/platform-browser": "^4.0.0",
+    "@angular/platform-browser-dynamic": "^4.0.0",
+    "@angular/router": "^4.0.0",
+    "bootstrap": "^3.3.7",
+    "core-js": "^2.4.1",
+    "jquery": "^3.2.1",
+    "less": "^2.7.2",
+    "pgwslider": "^2.3.1",
+    "rxjs": "^5.2.0",
+    "systemjs": "^0.19.47",
+    "w3-css": "^4.0.4",
+    "zone.js": "^0.8.5"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.60",
+    "concurrently": "^3.1.0",
+    "lite-server": "^2.3.0",
+    "typescript": "^2.2.2",
+    "@types/jquery": "^3.2.12",
+    "@types/bootstrap": "^3.3.36",
+    "yuicompressor": "^2.4.8"
+  }
+}
